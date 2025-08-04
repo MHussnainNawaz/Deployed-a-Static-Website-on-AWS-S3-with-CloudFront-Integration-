@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deploy Static Site on AWS S3</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 40px;
+      max-width: 700px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      line-height: 1.4;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #d0e4ff;
+      margin-top: 10px;
+    }
+
+    .button {
+      margin-top: 30px;
+      display: inline-block;
+      background-color: #ffcc00;
+      color: #1e3c72;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #ffaa00;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #a0c1ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Deploy a Static Site on AWS S3 Bucket</h1>
+    <p>Attach CloudFront (CDN) to the S3 bucket and access the site with global performance and security.</p>
+
+    <a href="#" class="button" onclick="alert('Page is static – add links after deployment.')">
+      Learn More
+    </a>
+
+    <footer>
+      <p>Project by: Your Name | For AWS Lab</p>
+    </footer>
+  </div>
+</body>
+</html>
